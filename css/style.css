@@ -1,0 +1,56 @@
+/* style.css */
+
+* {
+    font-family: Georgia, serif;
+    box-sizing: border-box;
+}
+
+.center {
+    display: block;
+    text-align: center;
+    width: 33%; /* set a specific width */
+    margin: 20px auto; /* center block horizontally */
+    padding: 15px; /* add internal spacing */
+}
+
+.left {
+    display: block;
+    text-align: left;
+    width: 33%; /* set a specific width */
+    margin: 20px auto; /* center block horizontally */
+    padding: 15px; /* add internal spacing */
+}
+
+.list-container {
+    width: 50%; /* set a specific width */
+    padding: 15px; /* add internal spacing */
+}
+
+/* Further style lists */
+.list-container ul {
+    list-style-position: inside; /* Places bullets inside the content flow */
+    padding: 0; /* Remove default padding for better alignment */
+    margin: 0; /* Remove default margin for better alignment */
+    background-color: #86eb8a; /* add a background color */
+    border: 1px solid #ccc; /* add a border */
+}
+
+.list-container ol {
+    list-style-position: inside; /* Places bullets inside the content flow */
+    padding: 0; /* Remove default padding for better alignment */
+    margin: 0; /* Remove default margin for better alignment */
+    background-color: #edad0a; /* add a background color */
+    border: 1px solid #ccc; /* add a border */
+}
+
+.list-container li {
+    line-height: 1.5; /* Adjust line spacing */
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 30px;
+    background-color: #8688eb; /* add a background color */
+    border: 10px solid #ccc; /* add a border */
+}
+
