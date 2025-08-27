@@ -4,41 +4,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title>Omelet Recipe</title>
 </head>
-
 <body>
-    <div class="heading center">Omelet Recipe</div>
-    <p class="center">
-        <a href="../index.html">Home</a>
-    </p>
-    <img class = "center" src="../images/omelet.jpg" width="300" alt="folded golden brown omelet on white plate">
-    <div class="heading center">Description</div>
-    <p class="center">
-        Three egg omelet. Don't complicate it.
-    </p>
-    <div class="heading center">Ingredients</div>
-    <div class="list-container left">
-        <ul>
-            <li>3 eggs</li>
-            <li>unsalted butter, salt, pepper</li>
-            <li>diced chives (optional)</li>
-        </ul>
+    <div class="header">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="../index.html" class="nav-link home">🏠 Home</a></li>
+                <div class="nav-right">
+                    <li><a href="salsa.html" class="nav-link">Salsa</a></li>
+                    <li><a href="omelet.html" class="nav-link active">Omelet</a></li>
+                    <li><a href="chips.html" class="nav-link">Chips</a></li>
+                </div>
+            </ul>
+        </nav>
     </div>
-    <div class="list-container left"></div>
-    <div class="heading center">Steps</div>
-    <div class="list-container left">
-        <ol>
-            <li>beat those eggs, you know you want to</li>
-            <li>heat that pan</li>
-            <li>you know the heat is right when the butter melts, but does not burn</li>
-            <li>fold those eggs in and continuously agitate so the eggs cook uniformly</li>
-            <li>if you are feeling fancy toss that omelet</li>
-            <li>add more butter and start to fold the omelet</li>
-            <li>add salt and chives to taste</li>
-        </ol>
+    <div class="main-title">Omelet Recipe</div>
+    <div class="recipe-flex-container">
+        <div class="recipe-card">
+            <img src="../images/omelet.jpg" alt="folded golden brown omelet on white plate">
+            <div class="heading">Description</div>
+            <div class="description">
+                Three egg omelet. Don't complicate it.
+            </div>
+        </div>
+        <div class="recipe-card">
+            <div class="ingredients-title">Ingredients</div>
+            <ul class="ingredients-list">
+                <li>3 eggs</li>
+                <li>unsalted butter, salt, pepper</li>
+                <li>diced chives (optional)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="steps-section">
+        <div class="heading">Steps</div>
+        <div class="list-container">
+            <ol>
+                <li>beat those eggs, you know you want to</li>
+                <li>heat that pan</li>
+                <li>you know the heat is right when the butter melts, but does not burn</li>
+                <li>fold those eggs in and continuously agitate so the eggs cook uniformly</li>
+                <li>if you are feeling fancy toss that omelet</li>
+                <li>add more butter and start to fold the omelet</li>
+                <li>add salt and chives to taste</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

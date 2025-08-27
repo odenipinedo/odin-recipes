@@ -4,38 +4,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title>Chips Recipe</title>
 </head>
-
 <body>
-    <div class="heading center">Chips Recipe</div>
-    <p class="center">
-        <a href="../index.html">Home</a>
-    </p>
-    <img class="center" src="../images/chips.jpg" width="300" alt="close up of crispy corn chips on a white plate">
-    <div class="heading center">Description</div>
-    <p class="center">
-        Air fryer chips.
-    </p>
-    <div class="heading center">Ingredients</div>
-    <div class="list-container left">
-        <ul>
-            <li>Nasty, stale corn tortillas</li>
-            <li>olive oil or duck fat spray</li>
-            <li>Maldon and/or Lime salt</li>
-        </ul>
+    <div class="header">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="../index.html" class="nav-link home">🏠 Home</a></li>
+                <div class="nav-right">
+                    <li><a href="salsa.html" class="nav-link">Salsa</a></li>
+                    <li><a href="omelet.html" class="nav-link">Omelet</a></li>
+                    <li><a href="chips.html" class="nav-link active">Chips</a></li>
+                </div>
+            </ul>
+        </nav>
     </div>
-    <div class="heading center">Steps</div>
-    <div class="list-container left">
-        <ol>
-            <li>slice those terrible factory-made tortillas made with that shitty GMO corn</li>
-            <li>coat them with spray oil and salt</li>
-            <li>toss one layer deep on 350 for 3 minutes</li>
-            <li>flip, repeat</li>
-            <li>now you have a Mexican omelet breakfast, happy Cinco de Mayo.</li>
-        </ol>
+    <div class="main-title">Chips Recipe</div>
+    <div class="recipe-flex-container">
+        <div class="recipe-card">
+            <img src="../images/chips.jpg" alt="close up of crispy corn chips on a white plate">
+            <div class="heading">Description</div>
+            <div class="description">
+                Air fryer chips.
+            </div>
+        </div>
+        <div class="recipe-card">
+            <div class="ingredients-title">Ingredients</div>
+            <ul class="ingredients-list">
+                <li>Nasty, stale corn tortillas</li>
+                <li>olive oil or duck fat spray</li>
+                <li>Maldon and/or Lime salt</li>
+            </ul>
+        </div>
+    </div>
+    <div class="steps-section">
+        <div class="heading">Steps</div>
+        <div class="list-container">
+            <ol>
+                <li>slice those terrible factory-made tortillas made with that shitty GMO corn</li>
+                <li>coat them with spray oil and salt</li>
+                <li>toss one layer deep on 350 for 3 minutes</li>
+                <li>flip, repeat</li>
+                <li>now you have a Mexican omelet breakfast, happy Cinco de Mayo.</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>
